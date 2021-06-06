@@ -75,6 +75,13 @@ using FlappyBird.Web.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "D:\GitHub Repositories\Flappy-Bird--Blazor-\Flappy Bird (Blazor)\FlappyBird\FlappyBird.Web\_Imports.razor"
+using FlappyBird.Web.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {

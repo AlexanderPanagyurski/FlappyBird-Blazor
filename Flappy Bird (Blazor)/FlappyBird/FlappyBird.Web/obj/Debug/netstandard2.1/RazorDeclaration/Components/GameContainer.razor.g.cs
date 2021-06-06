@@ -75,6 +75,20 @@ using FlappyBird.Web.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "D:\GitHub Repositories\Flappy-Bird--Blazor-\Flappy Bird (Blazor)\FlappyBird\FlappyBird.Web\_Imports.razor"
+using FlappyBird.Web.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 1 "D:\GitHub Repositories\Flappy-Bird--Blazor-\Flappy Bird (Blazor)\FlappyBird\FlappyBird.Web\Components\GameContainer.razor"
+using FlappyBird.Web.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class GameContainer : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -82,6 +96,29 @@ using FlappyBird.Web.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 25 "D:\GitHub Repositories\Flappy-Bird--Blazor-\Flappy Bird (Blazor)\FlappyBird\FlappyBird.Web\Components\GameContainer.razor"
+       
+
+    GameManager _gameManager { get; set; }
+
+    protected override void OnInitialized()
+    {
+        _gameManager = new GameManager();
+        _gameManager.MainLoopCompleted += (o, e) => StateHasChanged();
+    }
+
+    void HandleKeyUp(KeyboardEventArgs e)
+    {
+        if (e.Key == " ")
+        {
+            _gameManager.Jump();
+        }
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

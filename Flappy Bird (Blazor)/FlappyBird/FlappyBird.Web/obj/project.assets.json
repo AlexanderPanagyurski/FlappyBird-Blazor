@@ -1643,11 +1643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Flappy Bird (Blazor)\\FlappyBird\\FlappyBird.Web\\FlappyBird.Web.csproj",
+      "projectUniqueName": "D:\\GitHub Repositories\\Flappy-Bird--Blazor-\\Flappy Bird (Blazor)\\FlappyBird\\FlappyBird.Web\\FlappyBird.Web.csproj",
       "projectName": "FlappyBird.Web",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Flappy Bird (Blazor)\\FlappyBird\\FlappyBird.Web\\FlappyBird.Web.csproj",
+      "projectPath": "D:\\GitHub Repositories\\Flappy-Bird--Blazor-\\Flappy Bird (Blazor)\\FlappyBird\\FlappyBird.Web\\FlappyBird.Web.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Flappy Bird (Blazor)\\FlappyBird\\FlappyBird.Web\\obj\\",
+      "outputPath": "D:\\GitHub Repositories\\Flappy-Bird--Blazor-\\Flappy Bird (Blazor)\\FlappyBird\\FlappyBird.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
